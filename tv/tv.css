@@ -1,0 +1,59 @@
+*{
+    font-family:sans;
+    font-size:16px;
+    margin:0px;
+    padding:0px;
+}
+
+#guide{
+/*
+    position:relative;
+*/
+/*
+    border:1px solid blue;
+*/
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:900px;
+}
+
+.time{
+    position:absolute;
+}
+
+.time .tline{
+    position:absolute;
+    display:inline-block;
+    padding-left:5px;
+    border-left:3px solid black;
+    font-size:16px;
+}
+
+.channel{
+    position:relative;
+    left:0px;
+    height:50px;
+
+}
+.channel .channelname{
+    display:inline-block;
+    position:absolute;
+    padding-left:3px;
+    color:#ccc;
+    width:147px;
+    height:50px;
+    vertical-align:middle;
+}
+
+.channel .prog{
+    display:inline-block;
+    border:1px solid #ddd;
+    border-left:3px solid #ccc;
+    font-size:11px;
+    height:50px;
+    overflow:hidden;
+    padding-left:2px;
+    position:absolute;
+    vertical-align:middle;
+}
